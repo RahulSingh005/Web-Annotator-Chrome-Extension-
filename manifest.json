@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Web Annotator",
+  "version": "1.0.0",
+  "description": "Annotate Web Pages With Highlights, Notes and Export them to PDF.",
+  "icons": {
+    "128": "logo.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}

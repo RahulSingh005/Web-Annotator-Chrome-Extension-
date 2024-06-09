@@ -1,0 +1,55 @@
+#annotator-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 10000;
+  }
+#annotator-sidebar button {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 20px;
+      margin-left: 9px;
+      color: white ;
+      border: none ;
+      border-radius: 50% ;
+      cursor: pointer ;
+      display: flex ;
+      align-items: center ;
+      justify-content: center ;
+      font-size: 18px ;
+      position: relative;
+  }
+.yellow{
+    background-color: yellow ;
+  }
+.green{
+    background-color: lightgreen ;
+  }
+.blue{
+    background-color: skyblue ;
+  }
+.red{
+    background-color: red ;
+  }
+#web{
+  color: white ;
+  padding: 10px 0 ;
+  text-align: center ;
+  font-family: 'Times New Roman', Times, serif ;
+  font-size: xx-large ;
+}
+.annotated-text {
+    cursor: pointer ;
+}
+#annotator-sidebar button svg {
+  pointer-events: none;
+}
+  
