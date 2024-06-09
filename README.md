@@ -24,12 +24,13 @@ It contains various buttons used for performing operations mentioned above and i
 * Add text will Add the Note to recent Annotation and if you want for another annotation just click on annotation and then on add note button.
 * View Notes button will open a window where highlighted text and their corresponding notes will be shown.
 * Currently you can save the notes as pdf only from the Notes Window Save As PDF button.
-* Also Shotcuts can be added to access these buttons.
+
 
 ## Potential Issues and Improvements
 * Undo button only retrieves the first deleted annotation with last deleted annotation highlight color.
 * Currently PDF can be downloaded only from Save Of PDF button in View Notes Window not from Save PDF button on Sidebar.
 * Web Page width needs to be adjusted when extension is active.
+* Also Shotcuts can be added to access these buttons.
 
 ## Author
 Contributor-Rahul Singh
